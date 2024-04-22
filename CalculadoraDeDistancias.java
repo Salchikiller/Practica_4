@@ -43,10 +43,25 @@ public class CalculadoraDeDistancias {
         }
     
     
+
+        public static void main(String[] args) {
+            String str1 = "";
+            String str2 = "";
+    
+            // Calculamos la distancia de edición entre str1 y str2
+            int distanciaCalculada = calcularDistancia(str1, str2);
+        
+            // Imprimimos la distancia de edición calculada
+            System.out.println("Distancia de edición entre " + str1 + " y " + str2 + ": " + distanciaCalculada);
+        }
+
+
+
+
     
     
     }
 
 
 
-        
+    
