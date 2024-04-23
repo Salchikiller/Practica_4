@@ -1,12 +1,12 @@
-fichJar = src/pi.jar
+fichJar = distancia.jar
 
 limpiar:
-	rm -f $(fichJar)
+	rm -f *.jar
 	rm -rf bin	
 
 compilar: limpiar
-	mkdir -p bin
-	find . -name '*.java' | xargs javac -cp bin -d bin
+	mkdir bin
+	find . -name *.java | xargs javac -cp bin -d bin
 
 jar: compilar
-	jar cvfm $(fichJar) Manifest.txt -C bin .
+	jar cvfm $(fichJar) Manifest.txt -C bin . 

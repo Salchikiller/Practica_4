@@ -1,9 +1,11 @@
-public class CalculadoraDeDistancias {
+package palabras;
+
+public class CalculadoraDistancias{
     /**
-     * Calcula la distancia de edición, tal y como la expone
-     * Jurafsky entre las cadenas `s1` y `s2`.
-     */
-    public static int calcularDistancia(String s1, String s2) {
+     * * Calcula la distancia de edició n, tal y como la expone
+     * * Jurafsky entre las cadenas ` s1` y ` s2`.
+     * */
+    public static int calcularDistancia(String s1, String s2){
         int m = s1.length();
         int n = s2.length();
         
@@ -38,30 +40,6 @@ public class CalculadoraDeDistancias {
                 }
             }
 
-            return dp[n][m];
-
-        }
-    
-    
-
-        public static void main(String[] args) {
-            String str1 = "";
-            String str2 = "";
-    
-            // Calculamos la distancia de edición entre str1 y str2
-            int distanciaCalculada = calcularDistancia(str1, str2);
-        
-            // Imprimimos la distancia de edición calculada
-            System.out.println("Distancia de edición entre " + str1 + " y " + str2 + ": " + distanciaCalculada);
-        }
-
-
-
-
-    
-    
+           return dp[m][n]; // Este código hay que cambiarlo.
     }
-
-
-
-    
+}

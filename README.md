@@ -55,16 +55,13 @@ make jar
 
 ### 6. Ejecutar el Programa
 
-Finalmente, vamos a ejecutar el programa para obtener una estimación de Pi. Reemplaza `x` con el número de puntos que deseas generar para la estimación de Pi :
+Finalmente, vamos a ejecutar el programa para obtener La distancia entre las palabras
 
 ```bash
-java -jar
+java -jar distancia.jar argumento1 argumento2 ...
 ```
 
-Por ejemplo, para generar 1000 puntos y estimar Pi, ejecuta:
+Por ejemplo, para comparar carlos y alejandro que daira distancia 1 
 
 ```bash
-java -jar 
-```
-
-# Practica_4
+java -jar distancia.jar carlos alejandro
