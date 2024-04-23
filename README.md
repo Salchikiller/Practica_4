@@ -1,4 +1,4 @@
-# Guía Paso a Paso - Estimación de Pi con Método de Montecarlo
+# Guía Paso a Paso - implementa el cálculo de la distancia
 
 Este repositorio contiene un programa Java que implementa el cálculo de la distancia de edición entre dos palabras según el algoritmo expuesto por Dan Jurafsky.
 
